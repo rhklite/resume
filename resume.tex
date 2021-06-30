@@ -49,7 +49,6 @@
 %%% Needed to divide into several files
 \usepackage{import}
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Personal Data
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -59,10 +58,12 @@
 \mobile{(647) 995-9055} 
 %%% Social
 \email{richie.hu@mail.utoronto.ca}
-% \homepage{www.posquit0.com}
+\homepage{rhklite.github.io}
 \github{rhklite}
 % \linkedin{\href{www.meetfibi.com}{www.meetfibi.com}}
 %%% Optionals
+
+% \addbibresource{resume/references.bib}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -74,16 +75,20 @@
 %   {Richard Hu~~~·~~~Résumé}
 %   {\thepage}
 
+
 \begin{document}
 %%% Make a header for CV with personal data
+
 \makecvheader
 
 %%% Import contents
+
 \import{\sectiondir}{education.tex}
 \import{\sectiondir}{experience.tex}
-% \import{\sectiondir}{publications.tex}
+\import{\sectiondir}{publications.tex}
 % \import{\sectiondir}{projects.tex}
 \import{\sectiondir}{honors.tex}
 % \import{\sectiondir}{writing.tex}
 % \import{\sectiondir}{committees.tex}
+
 \end{document}
