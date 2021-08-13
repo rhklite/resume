@@ -1,6 +1,6 @@
 # README
 
-- [resume.pdf](resume.pdf) under **Master Branch** Contains the most recent version of the CV.
+- [cv.pdf](cv.pdf) under **Master Branch** Contains the most recent version of the CV.
 - The various versions of resume are archived through tags.
 - main branch will be the CV version.
   - Specific resume versions will be in the various branches.
