@@ -628,6 +628,22 @@
   \\
 }
 
+\newenvironment{cvhonorsshort}{
+  \begin{center}
+    \setlength\tabcolsep{0pt}
+    \setlength{\extrarowheight}{0pt}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{13.0cm} R{2.5cm}}
+}{
+    \end{tabular*}
+  \end{center}
+}
+% Usage: \cvhonorshort{<position>}{<title>}{<date>}
+\newcommand*{\cvhonorshort}[3]{
+   \honorpositionstyle{#1}, \honortitlestyle{#2} & \honordatestyle{#3}
+  \\
+}
+
+
 % Define an environment for cvskill
 \newenvironment{cvskills}{
   \begin{center}
