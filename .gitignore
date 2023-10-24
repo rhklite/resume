@@ -2,6 +2,9 @@
 *.log
 *.out
 *.synctex.gz
+*.fls
+*.fdb_latexmk
+.synctex*
 archive
 resume-0.png
 resume-1.png
